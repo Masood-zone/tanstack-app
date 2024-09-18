@@ -42,7 +42,16 @@ function TableComponent() {
 
   return (
     <section>
-      <h1>Users in Database</h1>
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "2rem",
+          margin: "1rem 0",
+          color: "#333",
+        }}
+      >
+        Users in Database - Using React Tanstack Table
+      </h1>
       <table>
         {/* Column Headers = Columns */}
         <thead>
