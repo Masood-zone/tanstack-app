@@ -43,6 +43,33 @@ const MainLayout = () => {
           alert={false}
         />
       </Link>
+      {/* Others */}
+      <div className="border-t border-gray-200 mt-4 pt-4">
+        <Link to="/">
+          <SidebarItem
+            icon={<HelpCircle size={20} />}
+            text="Others"
+            active={location.pathname === "/others"}
+            alert={false}
+          />
+        </Link>
+        <Link to="/">
+          <SidebarItem
+            icon={<HelpCircle size={20} />}
+            text="More"
+            active={location.pathname === "/others"}
+            alert={false}
+          />
+        </Link>
+        <Link to="/">
+          <SidebarItem
+            icon={<HelpCircle size={20} />}
+            text="Profile"
+            active={location.pathname === "/others"}
+            alert={false}
+          />
+        </Link>
+      </div>
     </Sidebar>
   );
 };
